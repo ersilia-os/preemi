@@ -22,9 +22,7 @@ variable_stages = {
         "BMI",
         "Multiple Birth",
     ],
-    "Pregnancy": [
-        "Antenatal Visits"
-    ],
+    "Pregnancy": ["Antenatal Visits"],
     "Delivery": [
         "Birthweight",
         "Method of Determining Gestation",
@@ -36,6 +34,6 @@ variable_stages = {
         "Kangaroo Mother Care",
         "Cord care Chlorhexidine",
         "Bag and Mask Resuscitation",
-        "Delivery Date"
-    ]
+        "Delivery Date",
+    ],
 }
