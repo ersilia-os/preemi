@@ -1,0 +1,7 @@
+column,dtype,non_missing_n,missing_n,missing_pct,unique_n,count,top,freq,used in interpretation,interpretation note
+Outcome Death,object,10596,0,0.0,2,10596,Live birth,10422,Yes,Target renamed to Death
+School Level,object,10591,5,0.05,4,10591,3=School,9905,Yes,Encoded numerically
+Type of Delivery Place,object,10087,509,4.8,209,10087,CHIPATA,4066,No,Dropped before interpretation
+Delivery Place,object,10582,14,0.13,4,10582,Hospital,7801,Yes,Encoded as Delivery Place Home
+Mode of Delivery,object,10515,81,0.76,2,10515,Vaginal,10331,Yes,Encoded as Mode of Delivery Cesarea
+Pre-term Delivery,object,10596,0,0.0,2,10596,Term,7713,Yes,Encoded as binary

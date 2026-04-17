@@ -1,0 +1,9 @@
+column,dtype,non_missing_n,missing_n,missing_pct,unique_n,count,top,freq,used in interpretation,interpretation note
+Late Neonatal Death,object,10288,22,0.21,2,10288,Alive,10266,Yes,Target renamed to Death
+School Level,object,10305,5,0.05,4,10305,3=School,9638,Yes,Encoded numerically
+Type of Delivery Place,object,9829,481,4.67,206,9829,CHIPATA,4006,No,Dropped before interpretation
+Delivery Place,object,10296,14,0.14,4,10296,Hospital,7588,Yes,Encoded as Delivery Place Home
+Mode of Delivery,object,10230,80,0.78,2,10230,Vaginal,10065,Yes,Encoded as Mode of Delivery Cesarea
+Birthweight Measure,object,9843,467,4.53,2,9843,At delivery (between 0-6 hours),7588,No,Dropped before interpretation
+Baby Sex,object,10275,35,0.34,2,10275,Female,5175,Yes,Encoded as Baby Sex Female
+Pre-term Delivery,object,10310,0,0.0,2,10310,Term,7585,Yes,Encoded as binary
