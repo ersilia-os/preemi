@@ -2,6 +2,10 @@
 testing-autogluon
 df.csv
 
+# Source data stays private; only the de-identified folder is shared
+data/*
+!data/deidentified/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
